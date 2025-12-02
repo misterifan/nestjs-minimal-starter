@@ -35,7 +35,6 @@ project/
 <details>
 <summary>⚡ Installation</summary>
 
-```bash
 # Clone the repository
 git clone https://github.com/yourusername/nestjs-minimal-starter.git
 cd nestjs-minimal-starter
@@ -43,7 +42,10 @@ cd nestjs-minimal-starter
 # Install dependencies
 npm install
 
-</details> <details> <summary>🚀 Running the App</summary>
+</details>
+
+<details>
+<summary>🚀 Running the App</summary>
 Development
 npm run start:dev
 - Runs with live reload
@@ -56,7 +58,10 @@ npm run start:prod
 - Runs prestart:prod → builds TypeScript into dist/
 - Executes node dist/main.js
 
-</details> <details> <summary>📝 Scripts</summary>
+</details>
+
+<details>
+<summary>📝 Scripts</summary>
 | Script       | Description                        |
 | ------------ | ---------------------------------- |
 | `build`      | Compile TypeScript → JS in `dist/` |
@@ -94,7 +99,10 @@ const port = process.env.PORT || 3000;
 await app.listen(port);
 console.log(`🚀 Application is running on: http://localhost:${port}`);
 
-</details> <details> <summary>💡 Notes</summary>
+</details>
+
+<details>
+<summary>💡 Notes</summary>
 
 Ensure rootDir in tsconfig.build.json includes all TypeScript files to avoid Cannot find module 'dist/main'
 
@@ -102,6 +110,9 @@ Use npm run start:dev for development
 
 Dist folder is automatically generated after build
 
-</details> <details> <summary>📜 License</summary>
+</details> 
+
+<details> 
+<summary>📜 License</summary>
 MIT
-</details> ``
+</details>
